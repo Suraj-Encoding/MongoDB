@@ -235,12 +235,12 @@
 
      # Less than/Greater than/ Less than or Equal/Greater than or Equal
 
-     - db.comments.find({year: {$lt: 5}})
+     - db.comments.find({year: {$lt: 5}})  
 
      - db.comments.find({year: {$lte: 4}})
 
      - db.comments.find({year: {$gt: 3}})
 
      - db.comments.find({year: {$gte: 5}})
-
+     
 
