@@ -242,5 +242,30 @@
      - db.comments.find({year: {$gt: 3}})
 
      - db.comments.find({year: {$gte: 5}})
-     
 
+     # Note: 
+         1.lt - less than    
+         2.lte - less than or equal
+         3.gt - greater than  
+         4.gte - greater than or equal 
+
+
+
+-----------------
+  # Concepts #
+-----------------
+
+   1. mongo vs mongod
+     
+      # mongo: 
+               - It is a Command line shell
+               - on which we runs the commands
+               - It is like C++ program
+     # mongod: 
+               - It is a process host
+               - which executes the commands
+               - It is like C++ compiler
+          
+     
+     
+   
